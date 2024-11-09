@@ -12,12 +12,12 @@ uf2conv is an open source Python based tool for packing and unpacking [UF2](http
 Download the latest `.deb` package from the [Releases](https://github.com/zehrer/uf2utils/releases) section.
 
 To install:
-```bash
-sudo dpkg -i python3-uf2utils_<version>_<architecture>.deb
-sudo apt-get install -f
 
-## Basic 
-usage
+``` bash
+sudo dpkg -i python3-uf2utils_1.0-2_all.deb  
+``` 
+
+## Basic usage
 
 ### Pack a `.bin`/`.hex` to `.uf2`
 
