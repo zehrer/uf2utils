@@ -1,0 +1,28 @@
+Source: python3-uf2utils
+Section: python
+Priority: optional
+Maintainer: Stephan Zehrer <stephan.zehrer@gmail.com>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-sequence-python3,
+ python3-setuptools,
+ python3-all,
+#Testsuite: autopkgtest-pkg-python
+Standards-Version: 4.7.0
+Homepage: https://github.com/zehrer/uf2utils
+#Vcs-Browser: https://salsa.debian.org/debian/python3-uf2utils
+#Vcs-Git: https://salsa.debian.org/debian/python3-uf2utils.git
+
+Package: python3-uf2utils
+Architecture: all
+Depends:
+ ${python3:Depends},
+ ${misc:Depends},
+Suggests:
+ python-uf2utils-doc,
+Description: Utilities for working with UF2 files (Python 3)
+ A Python tool for packing and unpacking UF2 files.
+ This package installs the library for Python 3.
+
+

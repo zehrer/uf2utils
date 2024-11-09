@@ -1,0 +1,13 @@
+Package: python3-uf2utils
+Version: 1.0-1
+Architecture: all
+Maintainer: Stephan Zehrer <stephan.zehrer@gmail.com>
+Installed-Size: 43
+Depends: python3:any
+Suggests: python-uf2utils-doc
+Section: python
+Priority: optional
+Homepage: https://github.com/zehrer/uf2utils
+Description: Utilities for working with UF2 files (Python 3)
+ A Python tool for packing and unpacking UF2 files.
+ This package installs the library for Python 3.
