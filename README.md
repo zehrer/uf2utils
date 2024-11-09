@@ -7,15 +7,14 @@ uf2conv is an open source Python based tool for packing and unpacking [UF2](http
 * Python 3.6.0 or later
 * Update and tested only for Ubuntu 24.10
 
-## Installing
+## Installation (Using the .deb Package)
 
-To install the latest prerelease version from the HEAD of the main branch, you can do the following:
+Download the latest `.deb` package from the [Releases](https://github.com/zehrer/uf2utils/releases) section.
 
-On Linux/:
-
-``` sh
-python3 -m pip install --pre -U git+https://github.com/makerdiary/uf2utils.git@main
-```
+To install:
+```bash
+sudo dpkg -i python3-uf2utils_<version>_<architecture>.deb
+sudo apt-get install -f
 
 ## Basic 
 usage
