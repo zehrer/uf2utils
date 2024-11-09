@@ -5,25 +5,20 @@ uf2conv is an open source Python based tool for packing and unpacking [UF2](http
 ## Requirements
 
 * Python 3.6.0 or later
-* macOS, Linux, Windows 7 or newer, or FreeBSD
+* Update and tested only for Ubuntu 24.10
 
 ## Installing
 
 To install the latest prerelease version from the HEAD of the main branch, you can do the following:
 
-On Linux/macOS:
+On Linux/:
 
 ``` sh
 python3 -m pip install --pre -U git+https://github.com/makerdiary/uf2utils.git@main
 ```
 
-On Windows:
-
-``` sh
-py -3 -m pip install --pre -U git+https://github.com/makerdiary/uf2utils.git@main
-```
-
-## Basic usage
+## Basic 
+usage
 
 ### Pack a `.bin`/`.hex` to `.uf2`
 
