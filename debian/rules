@@ -9,6 +9,11 @@ export PYBUILD_NAME=python3-uf2utils
 %:
 	dh $@ --buildsystem=pybuild
 
+override_dh_auto_clean:
+	dh_auto_clean --buildsystem=pybuild
+	rm -rf .pybuild
+	rm -rf build/
+	rm -rf dist/
 
 # If you need to rebuild the Sphinx documentation:
 # Add sphinxdoc to the dh --with line.
